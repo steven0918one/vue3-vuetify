@@ -1,0 +1,105 @@
+@import "../scss/fonts.scss";
+
+* {
+  &::first-letter {
+    text-transform: capitalize;
+  }
+}
+.v-application {
+  [class*="text-h"] {
+    font-family: $poppins !important;
+  }
+
+  font-family: $roboto !important;
+}
+
+.text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6 {
+  font-family: $poppins !important;
+}
+
+:deep(.v-field__outline) {
+  --v-field-border-opacity: 1;
+
+}
+
+:deep(.v-field__outline .v-field__outline__start) {
+  border-radius: 12px 0 0 12px !important;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-inline-start-width: 1px;
+  border-color: #e8e9ea;
+}
+
+:deep(.v-field--variant-outlined .v-field__outline__start) {
+  border-radius: 12px 0 0 12px !important;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-inline-start-width: 1px;
+  border-color: #e8e9ea;
+}
+
+.v-field--variant-outlined .v-field__outline__end.v-locale--is-ltr, .v-locale--is-ltr .v-field--variant-outlined .v-field__outline__end {
+  border-radius: 0 12px 12px 0 !important;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-inline-start-width: 1px;
+  border-color: #e8e9ea;
+  border-left: none;
+}
+
+.v-field--variant-outlined .v-field__outline__start.v-locale--is-ltr, .v-locale--is-ltr .v-field--variant-outlined .v-field__outline__start {
+  border-radius: 12px 0 0 12px !important;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-inline-start-width: 1px;
+  border-color: #e8e9ea;
+}
+
+:deep(.v-field__outline .v-field__outline__end) {
+  border-radius: 0 12px 12px 0 !important;
+  border-color: #e8e9ea;
+}
+
+:deep(
+    .v-field--variant-outlined.v-field--focused .v-field__outline
+  ) {
+  --v-field-border-width: 1px;
+  border-width: var(--v-field-border-width);
+  border-color: #e8e9ea;
+}
+
+:deep(.v-field--variant-outlined .v-field__outline__notch::before),
+:deep(.v-field--variant-outlined .v-field__outline__notch::after) {
+  border-color: #e8e9ea;
+}
+
+:deep(.v-label.v-field-label) {
+  color: #969BA1;
+}
+
+:deep(.v-btn__overlay) {
+  background-color: unset;
+}
+
+:deep(.v-btn--disabled) {
+  opacity: 0.3 !important;
+}
+
+.v-card--link:before {
+  background: none;
+}
+
+.v-menu > .v-overlay__content {
+  border-radius: 8px !important;
+  border: 1px solid #E8E9EA;
+  box-shadow: none;
+}
+
+:deep(.v-field--variant-underlined .v-field__outline::before) {
+  display: none !important;
+}
+
+:deep(.v-field--variant-underlined .v-field__outline::after) {
+  display: none !important;
+}
+

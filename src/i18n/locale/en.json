@@ -1,0 +1,250 @@
+{
+  "lang" :{
+    "en" : "en",
+    "cn" : "中文"
+  },
+  "auth" : {
+    "step1" : {
+      "letsGetStarted": "Let's Get Started",
+      "createAccountText": "Create your Astra account or",
+      "loginBtn": "Log in",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "companyName": "Company",
+      "phone": "Phone",
+      "confirmEmail": "Confirm Email",
+      "termsText": "I agree to the",
+      "termsLink": "Terms of Service",
+      "signupBtn": "Sign Up",
+      "errors" : {
+        "bademail" : "Wrong Email Format",
+        "badclientname" :"Company name is missing",
+        "badfirstname" :"First Name is missing" ,
+        "badlastname" : "Last Name is missing" ,
+        "badterms": "You must agree to Terms & Conditions",
+        "isuseralready" : "User Already Exists",
+        "badaddnewclient" : "There was a problem adding the Company",
+        "badaddnewuser" : "There was a problem adding the new user",
+        "bademailsend" : "There was a problem while sending the email."
+      }
+    },
+    "step2" : {
+      "title": "Verify Your Email",
+      "subtitle": "We have sent code to your E-mail",
+      "resendCodeText": "Didn’t receive code?",
+      "resendCodeBtn": "Resend",
+      "codeSent": "Sent!",
+      "codeError": "Error occured",
+      "button": "Verify Email",
+      "emailVerifyError" : "Error Occured",
+      "errors" : {
+        "bademail" : "Wrong Email Format",
+        "badcode"  : "Wrong Code",
+        "baduser"  : "User does not exist"
+      }
+    },
+    "step3" : {
+      "title": "Hello",
+      "subtitle": "Now create a password for your Astra account",
+      "passwordField": "Password",
+      "passwordRepeatField" : "Confirm Password",
+      "button": "Create A Password",
+      "setPasswordError" : "Error Occured",
+      "errors" :{
+        "bademail" :"Wrong Email Format",
+        "badcode" :"User does not exist",
+        "badpassword" :"Wrong Password format",
+        "baduser" :"User does not exist",
+        "bademailsend" : "There was a problem while sending the email.",
+        "badcomplete" :"There was a problem creating the user"
+      }
+    },
+    "login" : {
+      "title": "Log In",
+      "subtitle": "Need A Astra Account?",
+      "loginLink" : "Create An Account",
+      "emailField" : "Email",
+      "passwordField": "Password",
+      "keepLogged" : "Keep me logged in",
+      "forgetPasswordBtn" : "Forget Password?",
+      "loginBtn" : "Log in",
+      "errors": {
+        "bademail" : "Wrong Email format",
+        "badpassword" : "Wrong password format",
+        "baduser": "User not found",
+        "badnounce": "",
+        "badattempt": "Attempted too much log-ins in short period of time",
+        "badpwd": "Wrong Password"
+      }
+    },
+    "forgot"  : {
+      "title" : "Reset Password",
+      "subtitle": "Enter your registered email address to change your Astra account password.",
+      "button":  "Reset Password",
+      "emailField": "Email",
+      "errors": {
+        "bademail": "Email not found",
+        "baduser": "User not found",
+        "bademailsend" : "Error sending email",
+        "badcomplete" :  "Error occured",
+        "badcode": "Wrong code",
+        "badpassword": "Wrong password",
+        "badchangepwd": "Password could not be changed"
+      }
+    },
+    "validations": {
+      "required": "This Field is Required",
+      "email": "Wrong Email Format",
+      "confirmEmail": "Email's don't match",
+      "checkNumbers": "Only Numbers are allowed",
+      "password" : "Password is required.",
+      "checkPassword": "Password must have at least 8 characters and must include symbols and capital letters."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Our Terms & Conditions",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus placeat fugiat, a soluta impedit consequatur voluptates, exercitationem aspernatur praesentium eum sunt ipsa earum quibusdam quo, deserunt cumque dolorem consequuntur quasi."
+  },
+  "navigation":{
+    "dashboard": {
+      "title": "Dashboard"
+    },
+    "settings": {
+      "title": "Settings",
+      "subLinks": {
+        "venues": {
+          "title": "Venues"
+        },
+        "users": {
+          "title": "Users"
+        },
+        "period": {
+          "title": "Period"
+        }
+      }
+    },
+    "sales" : {
+      "title": "Sales",
+      "subLinks": {
+        "sales1": "Sublink 1",
+        "sales2": "Sublink 2",
+        "sales3": "Sublink 3"
+      }
+    }
+  },
+  "settings": {
+    "venues": {
+      "createVenue": {
+        "title": "Create New Venue",
+        "createVenueBtn" : "Create Venue",
+        "editTitle": "Edit Venue",
+        "venueName" : "Venue Name",
+        "chainName" : "Chain Name",
+        "area" : "Area",
+        "address": "Address",
+        "district": "District",
+        "zipCode" : "Zip code",
+        "country" : "Country",
+        "city" : "City",
+        "currencyOfImports" : "Currency of Imports",
+        "assignedUsers": "Assigned Users",
+        "assignBtn" : "Assign",
+        "discardBtn": "Discard",
+        "createBtn": "Create",
+        "updateVenueBtn" : "Update",
+        "assignUsers": "Assign Users",
+        "errors": {
+          "badname": "Wrong Name",
+          "badcurrency": "Wrong Currency",
+          "badaddress": "Wrong Address",
+          "badzipcode": "Wrong ZIP Code",
+          "badcity": "Wrong City",
+          "badcountry": "Wrong Country",
+          "badusers": "Wrong Users",
+          "baduserid": "Wrong User ID"
+        }
+      },
+      "venuesList": {
+        "heading": "Venues"
+      }
+    },
+    "users": {
+      "inviteUsers": {
+        "inviteUserBtn": "Invite Users",
+        "inviteUserFormTitle": "Invite User",
+        "inviteUserFormBtnTitle": "Invite",
+        "assignedVenues": "Assigned Venues",
+        "discardBtn": "Discard",
+        "firstName": "First name",
+        "lastName": "Last Name",
+        "email" : "Email",
+        "permissionGroup": "Permission Group",
+        "assignVenues": "Assign Venues",
+        "assignVenuesBtnTitle": "Assign",
+        "removeUserBtnTitle": "Remove",
+        "addUserBtnTitle": "Add User",
+        "tableHeaders": {
+          "chain" : "Chain",
+          "venue" : "Venue Name",
+          "country" :  "Country",
+          "area" : "Area",
+          "city" :  "City"
+        },
+        "errors": {
+          "bademail" : "Wrong Email Format",
+          "badvenues" :"Wrong venue format",
+          "badvenueid": "Wrong venue id",
+          "badid": "Wrong venue id",
+          "badusers" :"Wrong Users format" ,
+          "badlastname" : "Last Name is missing" ,
+          "badfirstname": "First name is missing",
+          "badterms": "You must agree to Terms & Conditions",
+          "badrole" : "Wrong user role",
+          "badaddnewclient" : "There was a problem adding the Company",
+          "badaddnewuser" : "There was a problem adding the new user",
+          "bademailsend" : "There was a problem while sending the email.",
+          "isuseralready" : "User is already invited or belongs to other organisation ",
+          "badinvitenewuser": "Error while inviting the user",
+          "bademailsend": "Error sending the email"
+        },
+        "inviteSuccess": "User invited successfully",
+        "invitationText" : "Invited you to join",
+        "setPassword" : "Set your password to finish the registration"
+      }
+    },
+    "period": {
+      "saveBtn": "Save",
+      "noperiod": "No Periods",
+      "keys": {
+        "WTD": "Week to Date",
+        "MTD": "Month to Date",
+        "QTD": "Quarter to Date",
+        "YTD": "Year to Date",
+        "L7D": "Last 7 Days",
+        "LW": "Last Week",
+        "L4W": "Last 4 Weeks",
+        "L8W": "Last 8 Weeks",
+        "LM": "Last Month",
+        "LQ": "Last Quarter",
+        "LY": "Last Year"
+      },
+      "alert": {
+        "success": "Your default Period was Saved Successfully",
+        "error": "Your default Period was not Saved"
+      },
+      "sections": {
+        "sale": "SALES",
+        "labour": "LABOUR",
+        "social": "SOCIAL",
+        "inventory": "INVENTORY"
+      }
+    }
+  },
+  "roleNames": {
+    "admin": "Admin",
+    "employee": "Employee",
+    "manager" : "Manager"
+  }
+}
